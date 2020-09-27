@@ -1,0 +1,115 @@
+/* GENERAL STYLES */
+body {
+	font-family: Arial, San-Serif;
+	font-size: 120%;
+	background:white;
+}
+.text {
+    text-align:  center;
+   }
+ul {
+	margin:0%;
+	color: white;
+	padding: 0;
+}
+
+ul li {
+	list-style-type: none;
+	color: white;
+
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+.container {
+	margin: 0 auto;
+	width: 1520px;
+}
+/* NAVIGATION */
+.page-navigation {
+	background-color:white;
+	border-color: #101010;
+	min-height: 64px;
+}
+.page-navigation li {
+	float: left;
+	width: 160px;
+	border-radius: 10px;
+	border: 4px double black;
+}
+.page-navigation a {
+	display: block;
+	color: black;
+	line-height: 4em;
+	font-weight: bold;
+	text-align: center;
+	 border-radius: 10px;
+}
+.page-navigation li a:hover {
+	color: white;
+	background-color: black;
+	 border-radius: 10px;
+}
+
+/*Content*/
+
+.buttonsleft {
+  float: left;
+  width: 20%;
+}
+.string {
+  white-space: pre;
+}
+.page-content li {
+  font-size: 12px;
+  padding: 4px 2px;
+  border: solid 1px black;
+  width: 80%;
+  margin: 2px 0 20px;
+  border-radius: 5px;
+  display: block;
+}
+.page-content a {
+	display: block;
+	color: black;
+	line-height: 4em;
+	font-weight: bold;
+	text-align: center;
+	 border-radius: 10px;
+}
+.page-content li a:hover {
+	color: white;
+	background-color: black;
+	 border-radius: 10px;
+}
+
+/*Info*/
+.layer1 {
+    float: right; /* Обтекание по правому краю */
+    background: #fd0; /* Цвет фона */
+    border: 1.2px solid black; /* Параметры рамки */
+    padding: 195px; /* Поля вокруг текста */
+    margin-right: 10px; /* Отступ справа */
+    margin-left: 10px; 
+    width: 52.5%; /* Ширина блока */
+   }
+
+
+  p { overflow: auto; /* Добавляем полосы прокрутки */
+    width: 1155px; /* Ширина блока */
+    height: 576px; /* Высота блока */
+    padding: 22px; /* Поля вокруг текста */
+    border: solid 1px black; /* Параметры рамки */}
+
+  #info {   top: 12px; /* Расстояние от верхнего края */
+    left: 170px; /* Расстояние от левого края */ 
+    bottom: 0; right: 0; }
+    .ex {
+    border: dashed 1px #634F36;
+    background: #fffff5;
+    font-family: "Courier New", Courier, monospace; 
+    padding: 22px;
+    font-size: 80%;
+    margin: 0 0 1em;
+   }
